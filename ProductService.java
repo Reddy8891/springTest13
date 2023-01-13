@@ -1,0 +1,21 @@
+package com.training.springmvc.service;
+
+import com.training.springmvc.model.Cart;
+import com.training.springmvc.model.Product;
+import java.util.List;
+
+public interface ProductService {
+	
+	public Product getProduct();
+	
+	public List<Product> getAllProducts();
+//	
+	public boolean addProduct(Product product);
+	
+	public boolean deleteProduct(int prodId);
+	
+	public boolean updateProduct(Product product);
+	
+	public List<Cart> getAllCart();
+
+}
